@@ -7,7 +7,7 @@ grasscount = 0;
 
 WORLD_SIZE = 64;
 
-wscale = room_width/WORLD_SIZE;
+wscale = room_height/WORLD_SIZE;
 hscale = room_height/WORLD_SIZE;
 
 for (var i = 0; i < WORLD_SIZE; i++) {

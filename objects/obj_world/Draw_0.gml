@@ -39,8 +39,8 @@ for (i = 0; i < WORLD_SIZE; i++) {
 				color = c_red;
 				break;
 		}
-		draw_sprite_ext(spr_world, 0, i*wscale, j*hscale, wscale, hscale, 0, color, 1);
+		draw_sprite_ext(spr_world, 0, 210+i*wscale, j*hscale, wscale, hscale, 0, color, 1);
 	}
 }
 if created
-	draw_sprite_ext(spr_worldplayerspawn, 0, l*wscale, a*hscale, wscale/8, hscale/8, 0, c_white, 1);
+	draw_sprite_ext(spr_worldplayerspawn, 0, 210+l*wscale, a*hscale, wscale/8, hscale/8, 0, c_white, 1);

@@ -3,6 +3,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"draw_shadow","path":"scripts/draw_shadow/draw_shadow.yy",},"order":0,},
     {"id":{"name":"spr_worldplayerspawn","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"order":2,},
+    {"id":{"name":"obj_game_camera","path":"objects/obj_game_camera/obj_game_camera.yy",},"order":4,},
     {"id":{"name":"obj_world","path":"objects/obj_world/obj_world.yy",},"order":0,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":1,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},

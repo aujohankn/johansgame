@@ -9,7 +9,7 @@ while (!created) {
 			a ++;
 		}
 		else {
-			p = instance_create_depth(l*wscale, a*hscale, -1, obj_worldplayerspawn);
+			p = instance_create_depth(210+l*wscale+4, a*hscale+4, -1, obj_worldplayerspawn);
 			camera_set_view_target(cam, p);
 			created = true;
 		}
@@ -22,4 +22,4 @@ while (!created) {
 	}
 }
 
-alarm[5] = 180;
+alarm[5] = 120;
