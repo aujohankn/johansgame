@@ -7,7 +7,8 @@ grasscount = 0;
 
 WORLD_SIZE = 64;
 
-scale = 512/WORLD_SIZE;
+wscale = room_width/WORLD_SIZE;
+hscale = room_height/WORLD_SIZE;
 
 for (var i = 0; i < WORLD_SIZE; i++) {
 	for (var j = 0; j < WORLD_SIZE; j++) {
@@ -22,6 +23,12 @@ WORLD_ARRAY[ri,rj] = 11;
 WORLD_ARRAY[ri+1,rj] = 11;
 WORLD_ARRAY[ri+1,rj+1] = 11;
 WORLD_ARRAY[ri,rj+1] = 11;
-	
+
+cam = view_camera[0];
 
 alarm[0] = 10;
+
+created = false;
+l = 6;
+c = 0;
+a = 6;

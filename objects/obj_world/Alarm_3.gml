@@ -18,4 +18,5 @@ for (var i = 1; i < WORLD_SIZE-1; i++) {
 	}
 }
 
-if doAgain alarm[3] = 5;
+if doAgain alarm[3] = 15;
+else alarm[4] = 60;

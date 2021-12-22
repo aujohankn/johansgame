@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 7,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 8,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"994f66b7-64dd-4883-aacd-cfc37fe1896c","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"994f66b7-64dd-4883-aacd-cfc37fe1896c","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":{"name":"85b4f957-dc00-44b9-98a3-cf7782d7fdf8","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"994f66b7-64dd-4883-aacd-cfc37fe1896c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"72fd7c10-d944-4875-8284-b8181b51149b","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"72fd7c10-d944-4875-8284-b8181b51149b","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"LayerId":{"name":"737bb203-f1e5-4b43-8b7a-9dea6bb2e532","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_worldplayerspawn","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"resourceVersion":"1.0","name":"72fd7c10-d944-4875-8284-b8181b51149b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "spriteId": {"name":"spr_worldplayerspawn","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a4bf9990-bc43-4f50-a6a0-cec299e0e487","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"994f66b7-64dd-4883-aacd-cfc37fe1896c","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7c1539f4-7bba-442c-a3e9-559a64420559","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72fd7c10-d944-4875-8284-b8181b51149b","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "parent": {"name":"spr_worldplayerspawn","path":"sprites/spr_worldplayerspawn/spr_worldplayerspawn.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite2",
+    "name": "spr_worldplayerspawn",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85b4f957-dc00-44b9-98a3-cf7782d7fdf8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"737bb203-f1e5-4b43-8b7a-9dea6bb2e532","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite2",
+  "name": "spr_worldplayerspawn",
   "tags": [],
   "resourceType": "GMSprite",
 }
